@@ -1,3 +1,5 @@
+sudo apt update
+sudo apt upgrade
 sudo apt-get install libssl-dev
 sleep 3
 gcc -o decrypt_rsa decrypt_rsa.c -lssl -lcrypto 
